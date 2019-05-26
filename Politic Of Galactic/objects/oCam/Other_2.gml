@@ -1,11 +1,3 @@
-globalvar renk1;
-renk1=c_lime;
-globalvar renk2;
-renk2=c_yellow;
-globalvar renk3;
-renk3=c_red;
-globalvar renk4;
-renk4=c_blue;
 globalvar g1;
 globalvar g2;
 globalvar g3;
@@ -19,3 +11,5 @@ g4=Krothonias;
 g5=Kythoness;
 g6=Niddony;
 global.hepsinisec1=false;
+global.hepsinisec2=false;
+global.jumpingmode=false;

@@ -19,4 +19,5 @@ if layer_background_get_sprite(back_id) != arkaplan
 	layer_background_sprite(back_id, arkaplan);
 	layer_background_index(back_id,choose(0,1,2,3,4));
 }
-renk=c_blue;
+renk1=c_blue;
+renk2=c_blue;
