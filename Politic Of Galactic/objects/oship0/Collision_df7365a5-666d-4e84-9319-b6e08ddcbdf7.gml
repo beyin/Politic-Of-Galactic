@@ -1,5 +1,5 @@
-with(other)
+	hp-=irandom_range(8,12);
+	with(other)
 	{
 		instance_destroy();
 	}
-	hp-=random_range(8,12);

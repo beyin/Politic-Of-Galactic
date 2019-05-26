@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0e73ed44-89ee-444f-95e0-f23cb13f883a",
+            "Value": {
+                "id": "dfb9129b-501b-48f2-9518-7f5fe1fb6989",
+                "resourcePath": "sprites\\ship1\\ship1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c4d02f3-4fd6-433e-bfbd-28c7e6c0f5a5",
             "Value": {
                 "id": "46f738c2-ee35-46c7-b312-53fd1a8b5920",
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "ddddd29d-c85e-4267-baf3-00ae4f08acf3",
                 "resourcePath": "objects\\Krothonias\\Krothonias.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5b9073a6-1eb8-405c-a836-2e0666347fb5",
+            "Value": {
+                "id": "134e58db-32df-4f82-a9ad-c66bf993d260",
+                "resourcePath": "objects\\oship01\\oship01.yy",
                 "resourceType": "GMObject"
             }
         },
