@@ -1,4 +1,4 @@
-	hp-=irandom_range(8,12);
+	hp-=10;
 	with(other)
 	{
 		instance_destroy();

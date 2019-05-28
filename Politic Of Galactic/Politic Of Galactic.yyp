@@ -255,14 +255,6 @@
             }
         },
         {
-            "Key": "83249ddb-58fa-4635-b48f-cc58a01037bf",
-            "Value": {
-                "id": "6f320a94-ed22-420a-ad88-a22f0b2399c8",
-                "resourcePath": "objects\\oMermi5\\oMermi5.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "05b74a3d-18a4-491e-ac14-7b632b4ad129",
@@ -316,14 +308,6 @@
                 "id": "9d6d45ae-e2b9-4a27-971a-6f7145f11056",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
-            }
-        },
-        {
-            "Key": "a52b9601-e1e7-4af6-bf1c-2465b393572d",
-            "Value": {
-                "id": "3dcbe0f1-d20c-4959-b163-f162be19c75d",
-                "resourcePath": "objects\\oMermi2\\oMermi2.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -387,6 +371,14 @@
             "Value": {
                 "id": "e7484b56-4aef-4fa0-9055-7dda4279f203",
                 "resourcePath": "objects\\Lupikan\\Lupikan.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cb82a0fc-a3d1-4097-b21d-1654529145d6",
+            "Value": {
+                "id": "bd3d129c-e1dd-4429-995c-6bc97c89e97a",
+                "resourcePath": "objects\\Taralas\\Taralas.yy",
                 "resourceType": "GMObject"
             }
         },
