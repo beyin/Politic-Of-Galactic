@@ -1,7 +1,10 @@
 image_speed=0;
 image_index=3;
-image_angle = point_direction(g1.x, g1.y, g6.x, g6.y); //360 sağa 0 sağa 270 aşağı 180 sola 90 yukarı
-move_towards_point(g6.x,g6.y,3);
 hp=100;
 max_hp=100;
 timer=room_speed*0.5;
+gidisx=irandom_range(0,76800);
+gidisy=irandom_range(0,43200);
+move_towards_point(gidisx,gidisy,choose(6,10,15));
+haritax=room_width;
+haritay=room_height;

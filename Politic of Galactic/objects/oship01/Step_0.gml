@@ -17,7 +17,8 @@
 	secildi=false;
 	if global.hepsinisec2==true
 	secildi=true;
-	
+	if speed<6 and secildi==false
+	global.jumpingmode=false;
 	
 	if !mouse_check_button(mb_left) and !mouse_check_button_released(mb_left)
 	{
@@ -43,10 +44,12 @@ else if distance_to_point(gidisx,gidisy)>500
 	move_towards_point(gidisx,gidisy,50);
 }
 image_angle = point_direction(x, y, gidisx,gidisy);
-if distance_to_object(instance_nearest(x,y,oship1))<2000
+if distance_to_object(instance_nearest(x,y,oship1))<3000
 {
 	if timer==choose(5,15,25,35,45,55)
-	instance_create_layer(x,y,"Instances",choose(oMermi,oMermi1,oMermi2));
+	instance_create_layer(x,y,"Instances",oMermi1);
 }
 if hp<=0
 instance_destroy();
+	haritax=x/room_width*300;
+	haritay=y/room_height*300;

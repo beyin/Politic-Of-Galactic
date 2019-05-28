@@ -1,0 +1,1 @@
+draw_circle_color(window_get_width()-300+haritax,window_get_height()-300+haritay,2,c_red,c_red,false);

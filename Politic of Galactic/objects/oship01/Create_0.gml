@@ -9,3 +9,5 @@ hp=1000;
 max_hp=1000;
 timer=room_speed*0.5;
 timerhp=room_speed*0.5;
+haritax=room_width;
+haritay=room_height;
