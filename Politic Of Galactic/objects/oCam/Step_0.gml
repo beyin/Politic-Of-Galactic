@@ -20,7 +20,7 @@ if mouse_wheel_up()
 }
 else if mouse_wheel_down()
 {
-	if genislik<20000 //100
+	if genislik<60000 //100
 	{
 		genislik=genislik/0.80;
 		yukseklik=yukseklik/0.80;
