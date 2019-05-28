@@ -1,8 +1,7 @@
-draw_sprite(pause,0,display_get_gui_width()/2,50);
+//draw_sprite(pause,0,display_get_gui_width()/2,50);
 draw_text(0,20,"Press ESC for Fullscreen on/off");
 draw_text_color(0,50,"Use Mouse while up/down, movement",c_yellow,c_yellow,c_white,c_yellow,0.8);
 draw_text(0,80,"You can see camera move back if u go to border of map");
-draw_sprite(isaretci,0,window_mouse_get_x(),window_mouse_get_y());
 
 for(var sayi=0; sayi<instance_number(oship0);sayi+=1)
 {
@@ -33,7 +32,6 @@ if instance_exists(oship01)
 	else if mouse_check_button_pressed(mb_left)
 	{
 		global.hepsinisec2=false;
-		global.jumpingmode=false;
 	}
 	if window_mouse_get_x()>=window_get_width()-150 and window_mouse_get_x()<=window_get_width()-10 and window_mouse_get_y()>=160 and window_mouse_get_y()<=180 and mouse_check_button_released(mb_left)
 	global.jumpingmode=true;
@@ -48,3 +46,4 @@ if global.hepsinisec2==true
 renk2=c_white;
 else if global.hepsinisec2==false
 renk2=c_blue;
+draw_rectangle_color(window_get_width()-300,window_get_height()-300,window_get_width(),window_get_height(),c_white,c_white,c_white,c_white,true);
