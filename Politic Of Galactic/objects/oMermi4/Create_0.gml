@@ -30,4 +30,4 @@ else if instance_nearest(x,y,gemi).image_angle>270 and instance_nearest(x,y,gemi
 	gidisy=instance_nearest(x,y,gemi).y+random_range(-ekley/2, ekley*instance_nearest(x,y,gemi).speed*distance_to_object(instance_nearest(x,y,gemi))/2000);
 }
 image_angle = point_direction(x, y, gidisx,gidisy);
-move_towards_point(gidisx,gidisy,50+irandom_range(-5,10));
+move_towards_point(gidisx+irandom_range(-5,5),gidisy+irandom_range(-5,5),50+irandom_range(-5,10));

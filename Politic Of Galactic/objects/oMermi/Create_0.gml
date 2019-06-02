@@ -1,6 +1,7 @@
 image_speed=0;
 image_index=choose(0,1,2);
 gemi=oship1;
+//audio_play_sound(choose(laser,laser1,laser2,laser3,laser4,laser5,laser6,laser7),10,false);
 if instance_nearest(x,y,gemi).image_angle<=90 //sağ üst
 {
 	eklex=90-instance_nearest(x,y,gemi).image_angle;//90 0

@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1245c015-8c5e-45ab-b335-18a221ae671f",
+            "Value": {
+                "id": "41d57986-a118-4e68-8980-63299bbb74a7",
+                "resourcePath": "sounds\\laser5\\laser5.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1c4d02f3-4fd6-433e-bfbd-28c7e6c0f5a5",
             "Value": {
                 "id": "46f738c2-ee35-46c7-b312-53fd1a8b5920",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "34737ed4-0faf-42db-8a33-9a15e9637f91",
+            "Value": {
+                "id": "20501b79-5c4c-44d0-8398-2b3981d8e30b",
+                "resourcePath": "sounds\\laser6\\laser6.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "389bf1f2-4d7e-4c7f-85cc-e9afe185573e",
             "Value": {
                 "id": "6eeb9971-de49-4ffe-8236-ab4b6422aba5",
@@ -116,6 +132,38 @@
                 "id": "01955685-cc82-4aff-b074-1125f2882c35",
                 "resourcePath": "options\\ps4\\options_ps4.yy",
                 "resourceType": "GMPS4Options"
+            }
+        },
+        {
+            "Key": "3c2a22d7-8481-49a5-8beb-08e70c5ba431",
+            "Value": {
+                "id": "e96a411b-4da1-491b-8b5f-561bd8996044",
+                "resourcePath": "sounds\\laser1\\laser1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "3d0759a5-b0be-450e-a4b2-24434e0fbc28",
+            "Value": {
+                "id": "116d6a66-ce99-4f7f-8e71-71be87a4746a",
+                "resourcePath": "sounds\\laser7\\laser7.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "42dddecf-c5d4-4cf7-9eff-6a4c75456b4f",
+            "Value": {
+                "id": "873c874e-fd8a-4c19-8efa-cf52a54d4444",
+                "resourcePath": "sounds\\deg3\\deg3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "456458ce-bacf-4b40-8e83-6f24d9e4d75f",
+            "Value": {
+                "id": "874f2557-0f6c-40d6-8b1a-1ffe62b5856b",
+                "resourcePath": "sounds\\deg1\\deg1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -207,6 +255,14 @@
             }
         },
         {
+            "Key": "733aeaae-43f6-44fe-af03-83d5de2be7a2",
+            "Value": {
+                "id": "320bb23d-13c6-4b58-8ab1-0cb7bcd09553",
+                "resourcePath": "sounds\\laser2\\laser2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "73c7ff2c-ad45-479d-8d95-82470fca4d48",
             "Value": {
                 "id": "4e1963a6-0d75-4f9b-905e-d6ea3091def4",
@@ -287,6 +343,14 @@
             }
         },
         {
+            "Key": "99922a82-c03d-4708-8034-31dfc88e0cd2",
+            "Value": {
+                "id": "6f2f076b-bc26-4fd4-a84c-8b63271049e1",
+                "resourcePath": "sounds\\laser\\laser.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9b03d5e4-3fc1-4ad0-b0e3-3ede07f594db",
             "Value": {
                 "id": "fd5b6396-6696-4e09-8ef6-1b841584e047",
@@ -311,6 +375,14 @@
             }
         },
         {
+            "Key": "a85ff488-f70e-4bdc-a97f-84264d3bd291",
+            "Value": {
+                "id": "415fcb04-2e49-474f-a163-38a74e8f8868",
+                "resourcePath": "sounds\\laser4\\laser4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "4de2176c-dc38-4830-b2f9-a0646602046e",
@@ -332,6 +404,14 @@
                 "id": "ce0bbea8-4075-4524-9b30-4e0189deb69d",
                 "resourcePath": "objects\\oship0\\oship0.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b70d122c-813f-4f45-9405-8d14ebe133d6",
+            "Value": {
+                "id": "faa3c498-e096-4262-897b-4f91e6dcc284",
+                "resourcePath": "sounds\\laser3\\laser3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -372,6 +452,14 @@
                 "id": "e7484b56-4aef-4fa0-9055-7dda4279f203",
                 "resourcePath": "objects\\Lupikan\\Lupikan.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ca89eb6c-12c4-4cbe-aa1e-87e0b980c1c7",
+            "Value": {
+                "id": "eab03b81-0165-4344-b7c1-e684a1c3f7d0",
+                "resourcePath": "sounds\\deg\\deg.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -420,6 +508,14 @@
                 "id": "b1355f0f-7974-4d00-b1ef-1335011242e8",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e5c530f5-4743-42fd-9e23-aab60020a6d8",
+            "Value": {
+                "id": "dc939f37-183e-430d-9db6-0048e3d5bf4f",
+                "resourcePath": "sounds\\deg2\\deg2.yy",
+                "resourceType": "GMSound"
             }
         },
         {

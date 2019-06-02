@@ -26,7 +26,7 @@ if instance_exists(oship0)
 if instance_exists(oship01)
 {
 	draw_rectangle_color(display_get_width()-300,140,display_get_width()-5,200,renk2,renk2,renk2,renk2,true);
-	draw_sprite_stretched(object_get_sprite(oship01),1,display_get_width()-300,140,100,56);
+	draw_sprite_stretched(object_get_sprite(oship01),4,display_get_width()-300,140,100,56);
 	if window_mouse_get_x()>=display_get_width()-300 and window_mouse_get_x()<=display_get_width()-5 and window_mouse_get_y()>=135 and window_mouse_get_y()<=195 and mouse_check_button_released(mb_left)
 	global.hepsinisec2=true;
 	else if mouse_check_button_pressed(mb_left)

@@ -39,14 +39,14 @@ move_towards_point(gidisx,gidisy,distance_to_point(gidisx,gidisy)/50);
 else if distance_to_point(gidisx,gidisy)>500
 {
 	if global.jumpingmode==false
-	move_towards_point(gidisx,gidisy,7+random_range(0,1));
+	move_towards_point(gidisx,gidisy,15+random_range(0,1));
 	else if global.jumpingmode==true
-	move_towards_point(gidisx,gidisy,50);
+	move_towards_point(gidisx,gidisy,60);
 }
 image_angle = point_direction(x, y, gidisx,gidisy);
-if distance_to_object(instance_nearest(x,y,oship1))<3000
+if distance_to_object(instance_nearest(x,y,oship1))<4000
 {
-	if timer==choose(5,15,25,35,45,55)
+	if timer==choose(5,15,25,35,45,55) or timer==10
 	instance_create_layer(x,y,"Instances",oMermi1);
 }
 if hp<=0

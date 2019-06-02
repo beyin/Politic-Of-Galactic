@@ -7,7 +7,6 @@
 	
 	if timerhp==20 and hp<=99
 	hp+=1;
-	
 	if mouse_check_button_released(mb_left)and x>=global.arax1 and x<=global.arax2 and y>=global.aray1 and y<=global.aray2
 	secildi=true;
 	else if mouse_check_button_released(mb_left) and point_distance(x,y,mouse_x,mouse_y)<50
@@ -40,7 +39,10 @@ image_angle = point_direction(x, y, gidisx,gidisy);
 if distance_to_object(instance_nearest(x,y,oship1))<3000
 {
 	if timer==choose(5,10,25,45)
+	{
 	instance_create_layer(x,y,"Instances",oMermi);
+	audio_play_sound_at(choose(laser,laser1,laser2,laser3,laser4,laser5,laser6,laser7), x, y, 0, 0, 50, 1, false, 1);
+	}
 }
 if hp<=0
 instance_destroy();
